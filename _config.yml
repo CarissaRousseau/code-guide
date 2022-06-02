@@ -1,9 +1,8 @@
-name:          Code Guide
-description:   Standards for developing flexible, durable, and sustainable HTML and CSS within tbk Creative.
-url:           http://scottblinch.github.io/code-guide/
-
-markdown:      rdiscount
-permalink:     pretty
-pygments:      true
-
-theme: jekyll-theme-slate
+name: Code Guide
+description: Standards for developing consistent, flexible, and sustainable HTML and CSS.
+url: https://codeguide.co
+permalink: pretty
+sass:
+  style: compressed
+version: 4.0.0
+og_image: https://raw.githubusercontent.com/mdo/code-guide/gh-pages/code-guide-social.png

@@ -1,3 +1,4 @@
+<!-- Avoid big blocks after all of your code -->
 .element { ... }
 .element-avatar { ... }
 .element-selected { ... }
@@ -6,4 +7,26 @@
 	.element { ...}
 	.element-avatar { ... }
 	.element-selected { ... }
+}
+
+<!-- In css list the media query directly after the element to keep the code together -->
+
+.element {...}
+@media (min-width: 480px) {
+	.element { ...}
+}
+
+<!-- In SCSS nest the media query within the specific definition -->
+
+.element {
+	width: 100%;
+	height: 200px;
+
+	@media (min-width: 992px) {
+		width: 50%;
+	}
+
+	@media (min-width: 1200px) {
+		width: 33.333%;
+	}
 }
